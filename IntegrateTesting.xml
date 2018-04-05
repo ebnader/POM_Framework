@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="IntegrationTesting">
+    <classes>
+      <class name="Pages.P1"/>
+      <class name="Pages.P2"/>
+      <class name="Pages.P3"/>
+      
+    </classes>
+  </test> <!-- IntegrationTesting -->
+</suite> <!-- Suite -->

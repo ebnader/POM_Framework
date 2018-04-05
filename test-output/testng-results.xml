@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="73" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+    <groups>
+      <group name="smoke">
+        <method signature="P1.p1test1()[pri:0, instance:Pages.P1@28d25987]" name="p1test1" class="Pages.P1"/>
+        <method signature="P1.p1test2()[pri:0, instance:Pages.P1@28d25987]" name="p1test2" class="Pages.P1"/>
+        <method signature="P2.p2test2()[pri:0, instance:Pages.P2@5b275dab]" name="p2test2" class="Pages.P2"/>
+        <method signature="P2.p2test4()[pri:0, instance:Pages.P2@5b275dab]" name="p2test4" class="Pages.P2"/>
+        <method signature="P3.p3test1()[pri:0, instance:Pages.P3@61832929]" name="p3test1" class="Pages.P3"/>
+        <method signature="P3.p3test4()[pri:0, instance:Pages.P3@61832929]" name="p3test4" class="Pages.P3"/>
+        <method signature="P3.p3test5()[pri:0, instance:Pages.P3@61832929]" name="p3test5" class="Pages.P3"/>
+      </group> <!-- smoke -->
+      <group name="Regration">
+        <method signature="P1.p1test1()[pri:0, instance:Pages.P1@28d25987]" name="p1test1" class="Pages.P1"/>
+        <method signature="P1.p1test3()[pri:0, instance:Pages.P1@28d25987]" name="p1test3" class="Pages.P1"/>
+        <method signature="P1.p1test4()[pri:0, instance:Pages.P1@28d25987]" name="p1test4" class="Pages.P1"/>
+        <method signature="P1.p1test5()[pri:0, instance:Pages.P1@28d25987]" name="p1test5" class="Pages.P1"/>
+        <method signature="P2.p2test1()[pri:0, instance:Pages.P2@5b275dab]" name="p2test1" class="Pages.P2"/>
+        <method signature="P2.p2test3()[pri:0, instance:Pages.P2@5b275dab]" name="p2test3" class="Pages.P2"/>
+        <method signature="P2.p2test5()[pri:0, instance:Pages.P2@5b275dab]" name="p2test5" class="Pages.P2"/>
+        <method signature="P3.p3test2()[pri:0, instance:Pages.P3@61832929]" name="p3test2" class="Pages.P3"/>
+        <method signature="P3.p3test3()[pri:0, instance:Pages.P3@61832929]" name="p3test3" class="Pages.P3"/>
+      </group> <!-- Regration -->
+    </groups>
+    <test name="IntegrationTesting" duration-ms="73" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+      <class name="Pages.P1">
+        <test-method status="PASS" signature="p1test1()[pri:0, instance:Pages.P1@28d25987]" name="p1test1" duration-ms="10" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p1test1 -->
+        <test-method status="PASS" signature="p1test2()[pri:0, instance:Pages.P1@28d25987]" name="p1test2" duration-ms="2" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p1test2 -->
+        <test-method status="PASS" signature="p1test3()[pri:0, instance:Pages.P1@28d25987]" name="p1test3" duration-ms="1" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p1test3 -->
+        <test-method status="PASS" signature="p1test4()[pri:0, instance:Pages.P1@28d25987]" name="p1test4" duration-ms="1" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p1test4 -->
+        <test-method status="PASS" signature="p1test5()[pri:0, instance:Pages.P1@28d25987]" name="p1test5" duration-ms="1" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p1test5 -->
+      </class> <!-- Pages.P1 -->
+      <class name="Pages.P3">
+        <test-method status="PASS" signature="p3test1()[pri:0, instance:Pages.P3@61832929]" name="p3test1" duration-ms="1" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p3test1 -->
+        <test-method status="PASS" signature="p3test2()[pri:0, instance:Pages.P3@61832929]" name="p3test2" duration-ms="1" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p3test2 -->
+        <test-method status="PASS" signature="p3test3()[pri:0, instance:Pages.P3@61832929]" name="p3test3" duration-ms="2" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p3test3 -->
+        <test-method status="PASS" signature="p3test4()[pri:0, instance:Pages.P3@61832929]" name="p3test4" duration-ms="1" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p3test4 -->
+        <test-method status="PASS" signature="p3test5()[pri:0, instance:Pages.P3@61832929]" name="p3test5" duration-ms="1" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p3test5 -->
+      </class> <!-- Pages.P3 -->
+      <class name="Pages.P2">
+        <test-method status="PASS" signature="p2test1()[pri:0, instance:Pages.P2@5b275dab]" name="p2test1" duration-ms="1" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p2test1 -->
+        <test-method status="PASS" signature="p2test2()[pri:0, instance:Pages.P2@5b275dab]" name="p2test2" duration-ms="1" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p2test2 -->
+        <test-method status="PASS" signature="p2test3()[pri:0, instance:Pages.P2@5b275dab]" name="p2test3" duration-ms="1" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p2test3 -->
+        <test-method status="PASS" signature="p2test4()[pri:0, instance:Pages.P2@5b275dab]" name="p2test4" duration-ms="1" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p2test4 -->
+        <test-method status="PASS" signature="p2test5()[pri:0, instance:Pages.P2@5b275dab]" name="p2test5" duration-ms="1" started-at="2018-04-05T16:35:17Z" finished-at="2018-04-05T16:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p2test5 -->
+      </class> <!-- Pages.P2 -->
+    </test> <!-- IntegrationTesting -->
+  </suite> <!-- Suite -->
+</testng-results>
